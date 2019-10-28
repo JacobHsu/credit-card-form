@@ -2,7 +2,7 @@ new Vue({
   el: "#app",
   data() {
     return {
-      currentCardBackground: Math.floor(Math.random()* 25 + 1), // just for fun :D
+      currentCardBackground: Math.floor(Math.random()* 25 + 1), // random credit card style
       cardName: "",
       cardNumber: "",
       cardMonth: "",
