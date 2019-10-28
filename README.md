@@ -20,7 +20,7 @@ package.json
 ```js
   "scripts": {
 	...
-    "deploy": "gh-pages -d"
+    "deploy": "gh-pages -d ."
   },
 ```
 `$ npm run deploy`  
