@@ -9,8 +9,8 @@ new Vue({
       cardYear: "",
       cardCvv: "",
       minCardYear: new Date().getFullYear(),
-      amexCardMask: "#### ###### #####",
-      otherCardMask: "#### #### #### ####",
+      amexCardMask: "#### ###### #####", // amex, American Express Credit Cards 美國運通   
+      otherCardMask: "#### #### #### ####", // visa mastercard
       cardNumberTemp: "",
       isCardFlipped: false,
       focusElementStyle: null,
@@ -42,6 +42,7 @@ new Vue({
 			return this.getCardType === "amex" ? this.amexCardMask : this.otherCardMask;
     },
     minCardMonth () {
+      // 卡片年份當年的 鎖住 現在月份以前的
       if (this.cardYear === this.minCardYear) return new Date().getMonth() + 1;
       return 1;
     }
