@@ -1,0 +1,24 @@
+{
+  "name": "credit-card-form",
+  "version": "1.0.0",
+  "description": "A fantastic credit card form with smooth and sweet micro-interactions. Includes number formatting, validation and automatic card type detection. Built with vuejs and also fully responsive.",
+  "main": "script.js",
+  "scripts": {
+    "deploy": "gh-pages -d .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JacobHsu/credit-card-form.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JacobHsu/credit-card-form/issues"
+  },
+  "homepage": "https://github.com/JacobHsu/credit-card-form#readme",
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}
